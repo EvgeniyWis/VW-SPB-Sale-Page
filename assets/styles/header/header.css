@@ -43,7 +43,7 @@ header {
 }
 header nav {
   display: flex;
-  padding: 10px 250px;
+  padding: 10px 200px;
   max-width: 100%;
   gap: 0px;
   color: var(--black);
@@ -107,7 +107,7 @@ header nav .navbar__menu {
 header nav .navbar__menu li {
   cursor: pointer;
 }
-header nav .navbar__menu li:nth-of-type(5) {
+header nav .navbar__menu li:nth-of-type(4) {
   color: var(--dark-blue);
 }
 header nav .navbar__info {

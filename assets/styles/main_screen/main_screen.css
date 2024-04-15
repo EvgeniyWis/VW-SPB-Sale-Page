@@ -14,12 +14,17 @@
 
 .main_screen {
   width: 100vw;
-  height: 500px;
+  min-height: 500px;
   margin-top: 90px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1100px) and (min-width: 700px) {
   .main_screen {
-    height: 230px;
+    margin-top: 0;
+  }
+}
+@media (max-width: 900px) and (min-width: 700px) {
+  .main_screen {
+    margin-top: 50px;
   }
 }
 .main_screen .main_img {
@@ -34,16 +39,24 @@
   }
 }
 .main_screen .breadcrumbs {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19.5px;
   color: var(--dark-grey);
   margin-top: 20px;
   display: flex;
   word-spacing: 10px;
   max-width: 100%;
   position: relative;
-  left: 13.5%;
+  align-self: flex-start;
+}
+@media (max-width: 1100px) {
+  .main_screen .breadcrumbs {
+    margin-top: 0;
+  }
+}
+.main_screen .breadcrumbs span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  word-spacing: 0px;
 }
 @media (max-width: 500px) {
   .main_screen .breadcrumbs {
