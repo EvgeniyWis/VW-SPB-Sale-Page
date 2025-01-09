@@ -8,6 +8,6 @@
    1. Склонируйте данный репозиторий.
    2. Откройте файл ```index.html```
    
-Или вы можете просто зайти на [сайт](kriswis.github.io/VW-SPB-Sale-Page/), загруженный на Github Pages.
+Или вы можете просто зайти на [сайт](https://evgeniywis.github.io/VW-SPB-Sale-Page/), загруженный на Github Pages.
 # Макет:
 ![sale_page](https://github.com/KrisWis/VW-SPB-Sale-Page/assets/94256853/5cf82ef1-5069-45dc-af81-c74294dcd754)
